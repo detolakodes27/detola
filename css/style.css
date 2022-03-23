@@ -8,6 +8,13 @@ html{
 	min-width: 370px !important;
 }
 
+.straight-line{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+    	width: 0px;
+}
+
 #action{
 	position: fixed;
 	background:rgba(0,0,0,0.65);
@@ -105,7 +112,8 @@ html{
 	display: flex;
 	background: none;
 	min-height: 80vh;
-	overflow:hidden;
+	overflow-x:auto;
+	overflow-y: hidden;
 	min-width: 350px;
 }
 @media screen and (max-width:800px){
